@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import './App.css';
 
 import Section from './Components/Section';
@@ -11,6 +12,14 @@ class App extends Component {
     totalFeedbacks: 0,
     percentageOfGoodFeedb: 0,
   }
+  static propTypes = {
+    totalFeedbacks: PropTypes.number,
+    percentageOfGoodFeedb: PropTypes.number,
+    good: PropTypes.number,
+    neutral: PropTypes.number,
+    bad: PropTypes.number,
+    options: PropTypes.arrayOf(PropTypes.string),
+  };
 
   state = {
     good: 0,
