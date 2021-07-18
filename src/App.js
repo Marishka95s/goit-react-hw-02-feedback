@@ -18,7 +18,7 @@ class App extends Component {
     good: PropTypes.number,
     neutral: PropTypes.number,
     bad: PropTypes.number,
-    options: PropTypes.arrayOf(PropTypes.string),
+    options: PropTypes.arrayOf(PropTypes.number),
   };
 
   state = {
