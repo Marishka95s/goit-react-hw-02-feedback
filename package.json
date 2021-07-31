@@ -1,11 +1,11 @@
 {
-  "name": "goit-react-hw-04-hooks-feedback",
+  "name": "goit-react-hw-02-feedback",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://marishka95s.github.io/goit-react-hw-04-hooks-feedback",
+  "homepage": "https://marishka95s.github.io/goit-react-hw-02-feedback",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Marishka95s/goit-react-hw-04-hooks-feedback.git"
+    "url": "git+https://github.com/Marishka95s/goit-react-hw-02-feedback.git"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
